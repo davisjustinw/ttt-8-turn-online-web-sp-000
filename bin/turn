@@ -4,4 +4,5 @@ require_relative '../lib/turn'
 
 board = (1..9).map do " " end
 
-puts 
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
