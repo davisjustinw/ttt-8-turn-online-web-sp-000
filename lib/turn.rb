@@ -29,5 +29,4 @@ def turn(board)
   valid_move?(board, index) ?
     move(board, index) : turn(board)
   display_board(board)
-  
 end
