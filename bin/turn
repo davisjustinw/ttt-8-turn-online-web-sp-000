@@ -6,3 +6,4 @@ board = (1..9).map do " " end
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
+turn(board)
